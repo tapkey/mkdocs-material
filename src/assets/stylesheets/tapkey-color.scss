@@ -1,0 +1,198 @@
+//
+// Tapkey Blue
+//
+
+$clr-tapkey-blue-list: (
+  "base": #00a3dd,
+  "50":   #e0f4fa,
+  "100":  #b1e3f3,
+  "200":  #80d0ec,
+  "300":  #50bee4,
+  "400":  #2db0e1,
+  "500":  #00a3dd,
+  "600":  #0095cf,
+  "700":  #0083bc,
+  "800":  #0072a9,
+  "900":  #0072a9,
+  "a100": #eff8ff,
+  "a200": #bce0ff,
+  "a400": #89c9ff,
+  "a700": #6fbeff
+);
+
+$clr-tapkey-blue:      map-get($clr-tapkey-blue-list, "base");
+
+$clr-tapkey-blue-50:   map-get($clr-tapkey-blue-list, "50");
+$clr-tapkey-blue-100:  map-get($clr-tapkey-blue-list, "100");
+$clr-tapkey-blue-200:  map-get($clr-tapkey-blue-list, "200");
+$clr-tapkey-blue-300:  map-get($clr-tapkey-blue-list, "300");
+$clr-tapkey-blue-400:  map-get($clr-tapkey-blue-list, "400");
+$clr-tapkey-blue-500:  map-get($clr-tapkey-blue-list, "500");
+$clr-tapkey-blue-600:  map-get($clr-tapkey-blue-list, "600");
+$clr-tapkey-blue-700:  map-get($clr-tapkey-blue-list, "700");
+$clr-tapkey-blue-800:  map-get($clr-tapkey-blue-list, "800");
+$clr-tapkey-blue-900:  map-get($clr-tapkey-blue-list, "900");
+$clr-tapkey-blue-a100: map-get($clr-tapkey-blue-list, "a100");
+$clr-tapkey-blue-a200: map-get($clr-tapkey-blue-list, "a200");
+$clr-tapkey-blue-a400: map-get($clr-tapkey-blue-list, "a400");
+$clr-tapkey-blue-a700: map-get($clr-tapkey-blue-list, "a700");
+
+
+//
+// Tapkey Yellow
+//
+
+$clr-tapkey-yellow-list: (
+  "base": #fca311,
+  "50":   #fff4e2,
+  "100":  #fee3b8,
+  "200":  #fed188,
+  "300":  #fdbf58,
+  "400":  #fcb135,
+  "500":  #fca311,
+  "600":  #fc9b0f,
+  "700":  #fb910c,
+  "800":  #fb880a,
+  "900":  #fa7705,
+  "a100": #ffffff,
+  "a200": #fff5ee,
+  "a400": #ffd7bb,
+  "a700": #ffc8a2
+);
+
+$clr-tapkey-yellow:      map-get($clr-tapkey-yellow-list, "base");
+
+$clr-tapkey-yellow-50:   map-get($clr-tapkey-yellow-list, "50");
+$clr-tapkey-yellow-100:  map-get($clr-tapkey-yellow-list, "100");
+$clr-tapkey-yellow-200:  map-get($clr-tapkey-yellow-list, "200");
+$clr-tapkey-yellow-300:  map-get($clr-tapkey-yellow-list, "300");
+$clr-tapkey-yellow-400:  map-get($clr-tapkey-yellow-list, "400");
+$clr-tapkey-yellow-500:  map-get($clr-tapkey-yellow-list, "500");
+$clr-tapkey-yellow-600:  map-get($clr-tapkey-yellow-list, "600");
+$clr-tapkey-yellow-700:  map-get($clr-tapkey-yellow-list, "700");
+$clr-tapkey-yellow-800:  map-get($clr-tapkey-yellow-list, "800");
+$clr-tapkey-yellow-900:  map-get($clr-tapkey-yellow-list, "900");
+$clr-tapkey-yellow-a100: map-get($clr-tapkey-yellow-list, "a100");
+$clr-tapkey-yellow-a200: map-get($clr-tapkey-yellow-list, "a200");
+$clr-tapkey-yellow-a400: map-get($clr-tapkey-yellow-list, "a400");
+$clr-tapkey-yellow-a700: map-get($clr-tapkey-yellow-list, "a700");
+
+
+//
+// Tapkey Red
+//
+
+$clr-tapkey-red-list: (
+  "base": #f44336,
+  "50":   #fee8e7,
+  "100":  #fcc7c3,
+  "200":  #faa19b,
+  "300":  #f77b72,
+  "400":  #f65f54,
+  "500":  #f44336,
+  "600":  #f33d30,
+  "700":  #f13429,
+  "800":  #ef2c22,
+  "900":  #ec1e16,
+  "a100": #ffffff,
+  "a200": #ffe9e9,
+  "a400": #ffb8b6,
+  "a700": #ff9f9c
+);
+
+$clr-tapkey-red:      map-get($clr-tapkey-red-list, "base");
+
+$clr-tapkey-red-50:   map-get($clr-tapkey-red-list, "50");
+$clr-tapkey-red-100:  map-get($clr-tapkey-red-list, "100");
+$clr-tapkey-red-200:  map-get($clr-tapkey-red-list, "200");
+$clr-tapkey-red-300:  map-get($clr-tapkey-red-list, "300");
+$clr-tapkey-red-400:  map-get($clr-tapkey-red-list, "400");
+$clr-tapkey-red-500:  map-get($clr-tapkey-red-list, "500");
+$clr-tapkey-red-600:  map-get($clr-tapkey-red-list, "600");
+$clr-tapkey-red-700:  map-get($clr-tapkey-red-list, "700");
+$clr-tapkey-red-800:  map-get($clr-tapkey-red-list, "800");
+$clr-tapkey-red-900:  map-get($clr-tapkey-red-list, "900");
+$clr-tapkey-red-a100: map-get($clr-tapkey-red-list, "a100");
+$clr-tapkey-red-a200: map-get($clr-tapkey-red-list, "a200");
+$clr-tapkey-red-a400: map-get($clr-tapkey-red-list, "a400");
+$clr-tapkey-red-a700: map-get($clr-tapkey-red-list, "a700");
+
+
+//
+// Tapkey Purple
+//
+
+$clr-tapkey-purple-list: (
+  "base": #9d5da1,
+  "50":   #f3ecf4,
+  "100":  #e2cee3,
+  "200":  #ceaed0,
+  "300":  #ba8ebd,
+  "400":  #ac75af,
+  "500":  #9d5da1,
+  "600":  #955599,
+  "700":  #8b4b8f,
+  "800":  #814185,
+  "900":  #6f3074,
+  "a100": #fabeff,
+  "a200": #f68bff,
+  "a400": #f358ff,
+  "a700": #f13fff
+);
+
+$clr-tapkey-purple:      map-get($clr-tapkey-purple-list, "base");
+
+$clr-tapkey-purple-50:   map-get($clr-tapkey-purple-list, "50");
+$clr-tapkey-purple-100:  map-get($clr-tapkey-purple-list, "100");
+$clr-tapkey-purple-200:  map-get($clr-tapkey-purple-list, "200");
+$clr-tapkey-purple-300:  map-get($clr-tapkey-purple-list, "300");
+$clr-tapkey-purple-400:  map-get($clr-tapkey-purple-list, "400");
+$clr-tapkey-purple-500:  map-get($clr-tapkey-purple-list, "500");
+$clr-tapkey-purple-600:  map-get($clr-tapkey-purple-list, "600");
+$clr-tapkey-purple-700:  map-get($clr-tapkey-purple-list, "700");
+$clr-tapkey-purple-800:  map-get($clr-tapkey-purple-list, "800");
+$clr-tapkey-purple-900:  map-get($clr-tapkey-purple-list, "900");
+$clr-tapkey-purple-a100: map-get($clr-tapkey-purple-list, "a100");
+$clr-tapkey-purple-a200: map-get($clr-tapkey-purple-list, "a200");
+$clr-tapkey-purple-a400: map-get($clr-tapkey-purple-list, "a400");
+$clr-tapkey-purple-a700: map-get($clr-tapkey-purple-list, "a700");
+
+
+//
+// Tapkey Green
+//
+
+$clr-tapkey-green-list: (
+  "base": #99cc00,
+  "50":   #f3f9e0,
+  "100":  #e0f0b3,
+  "200":  #cce680,
+  "300":  #b8db4d,
+  "400":  #a8d426,
+  "500":  #99cc00,
+  "600":  #91c700,
+  "700":  #86c000,
+  "800":  #7cb900,
+  "900":  #6bad00,
+  "a100": #edffd7,
+  "a200": #d7ffa4,
+  "a400": #c0ff71,
+  "a700": #b5ff58
+);
+
+$clr-tapkey-green:      map-get($clr-tapkey-green-list, "base");
+
+$clr-tapkey-green-50:   map-get($clr-tapkey-green-list, "50");
+$clr-tapkey-green-100:  map-get($clr-tapkey-green-list, "100");
+$clr-tapkey-green-200:  map-get($clr-tapkey-green-list, "200");
+$clr-tapkey-green-300:  map-get($clr-tapkey-green-list, "300");
+$clr-tapkey-green-400:  map-get($clr-tapkey-green-list, "400");
+$clr-tapkey-green-500:  map-get($clr-tapkey-green-list, "500");
+$clr-tapkey-green-600:  map-get($clr-tapkey-green-list, "600");
+$clr-tapkey-green-700:  map-get($clr-tapkey-green-list, "700");
+$clr-tapkey-green-800:  map-get($clr-tapkey-green-list, "800");
+$clr-tapkey-green-900:  map-get($clr-tapkey-green-list, "900");
+$clr-tapkey-green-a100: map-get($clr-tapkey-green-list, "a100");
+$clr-tapkey-green-a200: map-get($clr-tapkey-green-list, "a200");
+$clr-tapkey-green-a400: map-get($clr-tapkey-green-list, "a400");
+$clr-tapkey-green-a700: map-get($clr-tapkey-green-list, "a700");

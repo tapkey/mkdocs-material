@@ -56,9 +56,9 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/application.adb8469c.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/application.ebf9c16e.css' | url }}">
       {% if palette.primary or palette.accent %}
-        <link rel="stylesheet" href="{{ 'assets/stylesheets/application-palette.a8b3c06d.css' | url }}">
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/application-palette.799744e7.css' | url }}">
       {% endif %}
       {% if palette.primary %}
         {% import "partials/palette.html" as map %}
@@ -209,7 +209,7 @@
       {% endblock %}
     </div>
     {% block scripts %}
-      <script src="{{ 'assets/javascripts/application.8f58b9eb.js' | url }}"></script>
+      <script src="{{ 'assets/javascripts/application.43b3253f.js' | url }}"></script>
       {% if lang.t("search.language") != "en" %}
         {% set languages = lang.t("search.language").split(",") %}
         {% if languages | length and languages[0] != "" %}
