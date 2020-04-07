@@ -67,9 +67,15 @@
         ) %}
         <meta name="theme-color" content="{{ primary }}">
       {% endif %}
+      {% if config.extra.cookie_consent %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+      {% endif %}
     {% endblock %}
     {% block libs %}
       <script src="{{ 'assets/javascripts/modernizr.eca31fed.js' | url }}"></script>
+      {% if config.extra.cookie_consent %}
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+      {% endif %}
     {% endblock %}
     {% block fonts %}
       {% if font != false %}
@@ -229,6 +235,9 @@
             <script src="{{ (path ~ 'lunr.multi.js') | url }}"></script>
           {% endif %}
         {% endif %}
+      {% endif %}
+      {% if config.extra.cookie_consent %}
+        <script>window.cookieconsent.initialise({palette:{popup:{background:"{{ config.extra.cookie_consent.colors.popup.background }}",text:"{{ config.extra.cookie_consent.colors.popup.text }}"},button:{background:"{{ config.extra.cookie_consent.colors.button.background }}",text:"{{ config.extra.cookie_consent.colors.button.text }}"}},position:"{{ config.extra.cookie_consent.position }}",content:{href:"{{ config.extra.cookie_consent.learn_more_url }}"},cookie:{domain:"{{ config.extra.cookie_consent.cookie_domain }}"}})</script>
       {% endif %}
       <script>app.initialize({version:"{{ mkdocs_version }}",url:{base:"{{ base_url }}"}})</script>
       {% for path in config["extra_javascript"] %}
